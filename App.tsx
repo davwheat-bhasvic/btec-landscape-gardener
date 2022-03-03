@@ -1,28 +1,37 @@
 import React from 'react';
-import { Link, Text, HStack, Center, Heading, Switch, useColorMode, NativeBaseProvider, VStack, Code, Button, IconButton, Icon } from 'native-base';
-import { atom, RecoilRoot, useRecoilState } from 'recoil';
+
+import { Text, HStack, Switch, useColorMode, NativeBaseProvider, IconButton } from 'native-base';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Entypo } from '@native-base/icons';
+
+import { atom, RecoilRoot, useRecoilState } from 'recoil';
 
 import HomeScreen from './src/screens/HomeScreen';
+import AddScreen from './src/screens/AddScreen';
 
-function ToggleDarkMode() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  return (
-    <HStack space={2} alignItems="center">
-      <Text>Dark</Text>
-      <Switch
-        isChecked={colorMode === 'light'}
-        onToggle={toggleColorMode}
-        aria-label={colorMode === 'light' ? 'switch to dark mode' : 'switch to light mode'}
-      />
-      <Text>Light</Text>
-    </HStack>
-  );
-}
+// function ToggleDarkMode() {
+//   const { colorMode, toggleColorMode } = useColorMode();
+//   return (
+//     <HStack space={2} alignItems="center">
+//       <Text>Dark</Text>
+//       <Switch
+//         isChecked={colorMode === 'light'}
+//         onToggle={toggleColorMode}
+//         aria-label={colorMode === 'light' ? 'switch to dark mode' : 'switch to light mode'}
+//       />
+//       <Text>Light</Text>
+//     </HStack>
+//   );
+// }
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+export type RootStackParamList = {
+  Home: undefined;
+  Add: undefined;
+};
 
 const App = () => {
   return (
@@ -35,9 +44,13 @@ const App = () => {
               component={HomeScreen}
               options={{
                 title: 'Landscape gardening',
-                headerRight: () => (
-                  <IconButton icon={<Icon as={Entypo} name="emoji-happy" />} onPress={() => alert('This is a button!')} title="Info" color="#fff" />
-                ),
+              }}
+            />
+            <Stack.Screen
+              name="Add"
+              component={AddScreen}
+              options={{
+                title: 'Add gardening service',
               }}
             />
           </Stack.Navigator>
