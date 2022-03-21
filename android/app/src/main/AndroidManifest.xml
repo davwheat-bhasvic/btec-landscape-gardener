@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="dev.davwheat.bhasvic.landscapegardener">
+  package="dev.davwheat.bhasvic.mathsapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

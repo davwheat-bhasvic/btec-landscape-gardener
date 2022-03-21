@@ -1,35 +1,34 @@
 import { atom } from 'recoil';
-
-import type Service from '../models/Service';
+import { persistentAtom } from 'recoil-persistence/react-native';
 
 interface IState {
-  services: Service[];
+  milliseconds: number;
 }
 
-const globalStateAtom = atom<IState>({
-  key: 'globalServicesState',
+interface IRecordsState {
+  addition: number | null;
+  subtraction: number | null;
+  multiplication: number | null;
+  division: number | null;
+}
+
+const timerAtom = atom<IState>({
+  key: 'timerState',
   default: {
-    services: [],
+    milliseconds: 0,
   },
   dangerouslyAllowMutability: true,
 });
 
-interface IPricingState {
-  lawnmowing: number;
-  gardening: number;
-  paving: number;
-  planting: number;
-}
-
-const pricingStateAtom = atom<IPricingState>({
-  key: 'pricingState',
+const recordsAtom = persistentAtom<IRecordsState>({
+  key: 'recordsState',
   default: {
-    lawnmowing: 10,
-    gardening: 15,
-    paving: 18,
-    planting: 16,
+    addition: null,
+    subtraction: null,
+    multiplication: null,
+    division: null,
   },
   dangerouslyAllowMutability: true,
 });
 
-export { globalStateAtom, pricingStateAtom };
+export { timerAtom, recordsAtom };

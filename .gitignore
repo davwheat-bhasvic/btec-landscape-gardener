@@ -68,3 +68,5 @@ jest_coverage
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+key.properties

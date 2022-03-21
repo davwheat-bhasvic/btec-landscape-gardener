@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* LandscapeGardenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LandscapeGardenerTests.m */; };
+		00E356F31AD99517003FC87E /* MathsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MathsAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2FB1C3F53876132898975294 /* libPods-LandscapeGardener-LandscapeGardenerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 168C86462FD814DED68C8213 /* libPods-LandscapeGardener-LandscapeGardenerTests.a */; };
-		3580A49C5116C7D5742852A4 /* libPods-LandscapeGardener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1F7BF6D8148A2B1A6A5C96 /* libPods-LandscapeGardener.a */; };
+		2FB1C3F53876132898975294 /* libPods-MathsApp-MathsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 168C86462FD814DED68C8213 /* libPods-MathsApp-MathsAppTests.a */; };
+		3580A49C5116C7D5742852A4 /* libPods-MathsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1F7BF6D8148A2B1A6A5C96 /* libPods-MathsApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = LandscapeGardener;
+			remoteInfo = MathsApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* LandscapeGardenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandscapeGardenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MathsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* LandscapeGardenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeGardenerTests.m; sourceTree = "<group>"; };
-		0796AC3C3FBD69334FF433C1 /* Pods-LandscapeGardener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandscapeGardener.debug.xcconfig"; path = "Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener.debug.xcconfig"; sourceTree = "<group>"; };
-		0814C16C271202C703AC8C7D /* Pods-LandscapeGardener-LandscapeGardenerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandscapeGardener-LandscapeGardenerTests.debug.xcconfig"; path = "Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* LandscapeGardener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandscapeGardener.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LandscapeGardener/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LandscapeGardener/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LandscapeGardener/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LandscapeGardener/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LandscapeGardener/main.m; sourceTree = "<group>"; };
-		168C86462FD814DED68C8213 /* libPods-LandscapeGardener-LandscapeGardenerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LandscapeGardener-LandscapeGardenerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LandscapeGardener/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF1838D1B944ED97C157BFEF /* Pods-LandscapeGardener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandscapeGardener.release.xcconfig"; path = "Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener.release.xcconfig"; sourceTree = "<group>"; };
-		D7EBF99EF9357641ACCBEDA2 /* Pods-LandscapeGardener-LandscapeGardenerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandscapeGardener-LandscapeGardenerTests.release.xcconfig"; path = "Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests.release.xcconfig"; sourceTree = "<group>"; };
-		EC1F7BF6D8148A2B1A6A5C96 /* libPods-LandscapeGardener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LandscapeGardener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* MathsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathsAppTests.m; sourceTree = "<group>"; };
+		0796AC3C3FBD69334FF433C1 /* Pods-MathsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathsApp.debug.xcconfig"; path = "Target Support Files/Pods-MathsApp/Pods-MathsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0814C16C271202C703AC8C7D /* Pods-MathsApp-MathsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathsApp-MathsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MathsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MathsApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MathsApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MathsApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MathsApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MathsApp/main.m; sourceTree = "<group>"; };
+		168C86462FD814DED68C8213 /* libPods-MathsApp-MathsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathsApp-MathsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MathsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1838D1B944ED97C157BFEF /* Pods-MathsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathsApp.release.xcconfig"; path = "Target Support Files/Pods-MathsApp/Pods-MathsApp.release.xcconfig"; sourceTree = "<group>"; };
+		D7EBF99EF9357641ACCBEDA2 /* Pods-MathsApp-MathsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathsApp-MathsAppTests.release.xcconfig"; path = "Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC1F7BF6D8148A2B1A6A5C96 /* libPods-MathsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB1C3F53876132898975294 /* libPods-LandscapeGardener-LandscapeGardenerTests.a in Frameworks */,
+				2FB1C3F53876132898975294 /* libPods-MathsApp-MathsAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3580A49C5116C7D5742852A4 /* libPods-LandscapeGardener.a in Frameworks */,
+				3580A49C5116C7D5742852A4 /* libPods-MathsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* LandscapeGardenerTests */ = {
+		00E356EF1AD99517003FC87E /* MathsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* LandscapeGardenerTests.m */,
+				00E356F21AD99517003FC87E /* MathsAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = LandscapeGardenerTests;
+			path = MathsAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* LandscapeGardener */ = {
+		13B07FAE1A68108700A75B9A /* MathsApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = LandscapeGardener;
+			name = MathsApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EC1F7BF6D8148A2B1A6A5C96 /* libPods-LandscapeGardener.a */,
-				168C86462FD814DED68C8213 /* libPods-LandscapeGardener-LandscapeGardenerTests.a */,
+				EC1F7BF6D8148A2B1A6A5C96 /* libPods-MathsApp.a */,
+				168C86462FD814DED68C8213 /* libPods-MathsApp-MathsAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* LandscapeGardener */,
+				13B07FAE1A68108700A75B9A /* MathsApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* LandscapeGardenerTests */,
+				00E356EF1AD99517003FC87E /* MathsAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A9E76BDA8A994D9A2AD58B01 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* LandscapeGardener.app */,
-				00E356EE1AD99517003FC87E /* LandscapeGardenerTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MathsApp.app */,
+				00E356EE1AD99517003FC87E /* MathsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		A9E76BDA8A994D9A2AD58B01 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0796AC3C3FBD69334FF433C1 /* Pods-LandscapeGardener.debug.xcconfig */,
-				CF1838D1B944ED97C157BFEF /* Pods-LandscapeGardener.release.xcconfig */,
-				0814C16C271202C703AC8C7D /* Pods-LandscapeGardener-LandscapeGardenerTests.debug.xcconfig */,
-				D7EBF99EF9357641ACCBEDA2 /* Pods-LandscapeGardener-LandscapeGardenerTests.release.xcconfig */,
+				0796AC3C3FBD69334FF433C1 /* Pods-MathsApp.debug.xcconfig */,
+				CF1838D1B944ED97C157BFEF /* Pods-MathsApp.release.xcconfig */,
+				0814C16C271202C703AC8C7D /* Pods-MathsApp-MathsAppTests.debug.xcconfig */,
+				D7EBF99EF9357641ACCBEDA2 /* Pods-MathsApp-MathsAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* LandscapeGardenerTests */ = {
+		00E356ED1AD99517003FC87E /* MathsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LandscapeGardenerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MathsAppTests" */;
 			buildPhases = (
 				A54F4BDD3BE8EDD0AE2023A0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = LandscapeGardenerTests;
-			productName = LandscapeGardenerTests;
-			productReference = 00E356EE1AD99517003FC87E /* LandscapeGardenerTests.xctest */;
+			name = MathsAppTests;
+			productName = MathsAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MathsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* LandscapeGardener */ = {
+		13B07F861A680F5B00A75B9A /* MathsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LandscapeGardener" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MathsApp" */;
 			buildPhases = (
 				3985A553963DEE5FE11EB332 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = LandscapeGardener;
-			productName = LandscapeGardener;
-			productReference = 13B07F961A680F5B00A75B9A /* LandscapeGardener.app */;
+			name = MathsApp;
+			productName = MathsApp;
+			productReference = 13B07F961A680F5B00A75B9A /* MathsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LandscapeGardener" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MathsApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* LandscapeGardener */,
-				00E356ED1AD99517003FC87E /* LandscapeGardenerTests */,
+				13B07F861A680F5B00A75B9A /* MathsApp */,
+				00E356ED1AD99517003FC87E /* MathsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3880D97E7B8FFAC5F24D314E /* [CP] Copy Pods Resources */ = {
@@ -288,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3985A553963DEE5FE11EB332 /* [CP] Check Pods Manifest.lock */ = {
@@ -314,7 +314,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LandscapeGardener-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MathsApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener/Pods-LandscapeGardener-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathsApp/Pods-MathsApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A54F4BDD3BE8EDD0AE2023A0 /* [CP] Check Pods Manifest.lock */ = {
@@ -353,7 +353,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LandscapeGardener-LandscapeGardenerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MathsApp-MathsAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandscapeGardener-LandscapeGardenerTests/Pods-LandscapeGardener-LandscapeGardenerTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathsApp-MathsAppTests/Pods-MathsApp-MathsAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* LandscapeGardenerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MathsAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* LandscapeGardener */;
+			target = 13B07F861A680F5B00A75B9A /* MathsApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0814C16C271202C703AC8C7D /* Pods-LandscapeGardener-LandscapeGardenerTests.debug.xcconfig */;
+			baseConfigurationReference = 0814C16C271202C703AC8C7D /* Pods-MathsApp-MathsAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LandscapeGardenerTests/Info.plist;
+				INFOPLIST_FILE = MathsAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandscapeGardener.app/LandscapeGardener";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathsApp.app/MathsApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7EBF99EF9357641ACCBEDA2 /* Pods-LandscapeGardener-LandscapeGardenerTests.release.xcconfig */;
+			baseConfigurationReference = D7EBF99EF9357641ACCBEDA2 /* Pods-MathsApp-MathsAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = LandscapeGardenerTests/Info.plist;
+				INFOPLIST_FILE = MathsAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandscapeGardener.app/LandscapeGardener";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathsApp.app/MathsApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0796AC3C3FBD69334FF433C1 /* Pods-LandscapeGardener.debug.xcconfig */;
+			baseConfigurationReference = 0796AC3C3FBD69334FF433C1 /* Pods-MathsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = LandscapeGardener/Info.plist;
+				INFOPLIST_FILE = MathsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LandscapeGardener;
+				PRODUCT_NAME = MathsApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1838D1B944ED97C157BFEF /* Pods-LandscapeGardener.release.xcconfig */;
+			baseConfigurationReference = CF1838D1B944ED97C157BFEF /* Pods-MathsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = LandscapeGardener/Info.plist;
+				INFOPLIST_FILE = MathsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LandscapeGardener;
+				PRODUCT_NAME = MathsApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LandscapeGardenerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MathsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LandscapeGardener" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MathsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LandscapeGardener" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MathsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -1,4 +1,4 @@
-package dev.davwheat.bhasvic.landscapegardener;
+package dev.davwheat.bhasvic.mathsapp;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "LandscapeGardener";
+    return "MathsApp";
   }
 }

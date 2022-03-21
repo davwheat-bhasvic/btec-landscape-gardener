@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "LandscapeGardener.app"
-               BlueprintName = "LandscapeGardener"
-               ReferencedContainer = "container:LandscapeGardener.xcodeproj">
+               BuildableName = "MathsApp.app"
+               BlueprintName = "MathsApp"
+               ReferencedContainer = "container:MathsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "LandscapeGardenerTests.xctest"
-               BlueprintName = "LandscapeGardenerTests"
-               ReferencedContainer = "container:LandscapeGardener.xcodeproj">
+               BuildableName = "MathsAppTests.xctest"
+               BlueprintName = "MathsAppTests"
+               ReferencedContainer = "container:MathsApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LandscapeGardener.app"
-            BlueprintName = "LandscapeGardener"
-            ReferencedContainer = "container:LandscapeGardener.xcodeproj">
+            BuildableName = "MathsApp.app"
+            BlueprintName = "MathsApp"
+            ReferencedContainer = "container:MathsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LandscapeGardener.app"
-            BlueprintName = "LandscapeGardener"
-            ReferencedContainer = "container:LandscapeGardener.xcodeproj">
+            BuildableName = "MathsApp.app"
+            BlueprintName = "MathsApp"
+            ReferencedContainer = "container:MathsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -9,7 +9,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { atom, RecoilRoot, useRecoilState } from 'recoil';
 
 import HomeScreen from './src/screens/HomeScreen';
-import AddScreen from './src/screens/AddScreen';
+import QuizScreen, { QuizScreenProps } from './src/screens/QuizScreen';
+import SplashScreen from './src/screens/SplashScreen';
+import ResultsScreen, { ResultsScreenProps } from './src/screens/ResultsScreen';
 
 // function ToggleDarkMode() {
 //   const { colorMode, toggleColorMode } = useColorMode();
@@ -29,8 +31,10 @@ import AddScreen from './src/screens/AddScreen';
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export type RootStackParamList = {
+  Splash: undefined;
   Home: undefined;
-  Add: undefined;
+  Quiz: QuizScreenProps;
+  Results: ResultsScreenProps;
 };
 
 const App = () => {
@@ -38,19 +42,33 @@ const App = () => {
     <RecoilRoot>
       <NativeBaseProvider>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Home">
+          <Stack.Navigator initialRouteName="Splash">
+            <Stack.Screen
+              name="Splash"
+              component={SplashScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
             <Stack.Screen
               name="Home"
               component={HomeScreen}
               options={{
-                title: 'Landscape gardening',
+                headerShown: false,
               }}
             />
             <Stack.Screen
-              name="Add"
-              component={AddScreen}
+              name="Quiz"
+              component={QuizScreen}
               options={{
-                title: 'Add gardening service',
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Results"
+              component={ResultsScreen}
+              options={{
+                headerShown: false,
               }}
             />
           </Stack.Navigator>
