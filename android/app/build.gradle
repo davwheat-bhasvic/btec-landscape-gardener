@@ -141,8 +141,8 @@ android {
         applicationId "dev.davwheat.bhasvic.mathsapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "0.1.1"
     }
 
     splits {
@@ -179,7 +179,7 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             minifyEnabled true
-            shrinkResources true
+            shrinkResources false
         }
         releaseUnsigned {
             initWith release
