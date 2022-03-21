@@ -94,7 +94,7 @@ export default function QuizScreen({
       return false;
     }
 
-    if (!answer.match(/^-?[\d]*(\.[\d]+)?$/)) {
+    if (!answer.match(/^-?[\d]+(\.[\d]+)?$/)) {
       return false;
     }
 
